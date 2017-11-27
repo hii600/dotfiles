@@ -41,6 +41,13 @@ set wildmenu
 highlight Search ctermfg=Black
 " comment color
 highlight Comment ctermfg=Darkgray
+" line number color
+highlight LineNr ctermfg=208
+highlight CursorLineNr ctermfg=202
+" Statement
+highlight Statement ctermfg=208
+" Type
+highlight Type ctermfg=2
 
 " Neobundle settings
 " Note: Skip initialization for vim-tiny or vim-small.
