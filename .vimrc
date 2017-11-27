@@ -34,7 +34,14 @@ set showmatch
 " save command history
 set history=1000
 
+" enable a menu at the bottom
 set wildmenu
+
+" mouse settings
+set mouse=a
+set ttymouse=xterm2
+noremap <ScrollWheelUp> 3k
+noremap <ScrollWheelDown> 3j
 
 " color settings
 " pattern match color
@@ -48,6 +55,7 @@ highlight CursorLineNr ctermfg=202
 highlight Statement ctermfg=208
 " Type
 highlight Type ctermfg=2
+
 
 " Neobundle settings
 " Note: Skip initialization for vim-tiny or vim-small.
