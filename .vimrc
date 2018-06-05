@@ -76,6 +76,8 @@ vmap <LeftMouse> <Plug>(visualstar-g*)
 " clipboard
 set clipboard=unnamed,autoselect
 
+map <F5> :!python %<CR>
+
 " Neobundle settings
 " Note: Skip initialization for vim-tiny or vim-small.
 if 0 | endif
