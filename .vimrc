@@ -77,6 +77,7 @@ vmap <LeftMouse> <Plug>(visualstar-g*)
 set clipboard=unnamed,autoselect
 
 map <F5> :!python %<CR>
+map <F6> :!python -m pdb %<CR>
 
 " Neobundle settings
 " Note: Skip initialization for vim-tiny or vim-small.
@@ -96,7 +97,7 @@ if &compatible
   " Note: You don't set neobundle setting in .gvimrc!
   NeoBundle 'thinca/vim-themis'
   NeoBundle 'thinca/vim-visualstar'
-"  NeoBundle 'davidhalter/jedi-vim'
+"    NeoBundle 'davidhalter/jedi-vim'
 "  NeoBundle 'scrooloose/syntastic'
   NeoBundle 'cohama/lexima.vim'
   NeoBundle 'Yggdroot/indentLine'
