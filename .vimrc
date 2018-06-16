@@ -40,6 +40,8 @@ set wrap
 set hlsearch
 set incsearch
 set showmatch
+" clear highlight
+nnoremap <ESC><ESC> :nohlsearch<CR>
 " enable a menu at the bottom
 set wildmenu
 
