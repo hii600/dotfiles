@@ -88,6 +88,11 @@ map <F5> :!python % <CR>
 " python debuggger by F6
 map <F6> :!python -m pdb %<CR>
 
+" colorscheme for status bar by lightline plugin
+let g:lightline = {
+      \ 'colorscheme': 'wombat'
+      \ }
+
 " vim-plug
 call plug#begin('~/.vim/plugged')
 Plug 'Yggdroot/indentLine' " highlight indent
