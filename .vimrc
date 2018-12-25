@@ -91,18 +91,19 @@ map <F6> :!python -m pdb %<CR>
 " Escape by jj
 inoremap jj <Esc>
 
-" colorscheme for status bar by lightline plugin
-let g:lightline = {
-      \ 'colorscheme': 'wombat'
-      \ }
-
 " vim-plug
 call plug#begin('~/.vim/plugged')
 Plug 'Yggdroot/indentLine' " highlight indent
-Plug 'itchyny/lightline.vim' " fancy status line
 Plug 'thinca/vim-visualstar' " highlight search in visual mode
 Plug 'cohama/lexima.vim' " auto-close parentethese
 Plug 'bronson/vim-trailing-whitespace' " visualise spaces at the end of sentences
+Plug 'tomtom/tcomment_vim' " auto commentout
+Plug 'vim-airline/vim-airline' " fancy status line
+Plug 'vim-airline/vim-airline-themes' " themes for vim-airline
+Plug 'tpope/vim-surround' " quoting/parenthesizing made simple
+Plug 'mbbill/undotree' " undo history
+Plug 'airblade/vim-gitgutter' " show git diff
+Plug 'scrooloose/nerdtree' " tree explorer
 call plug#end()
 
 "save the cursor location
