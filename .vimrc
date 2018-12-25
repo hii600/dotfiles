@@ -88,6 +88,9 @@ map <F5> :!python % <CR>
 " python debuggger by F6
 map <F6> :!python -m pdb %<CR>
 
+" Escape by jj
+inoremap jj <Esc>
+
 " colorscheme for status bar by lightline plugin
 let g:lightline = {
       \ 'colorscheme': 'wombat'
