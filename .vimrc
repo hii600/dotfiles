@@ -104,6 +104,8 @@ Plug 'tpope/vim-surround' " quoting/parenthesizing made simple
 Plug 'mbbill/undotree' " undo history
 Plug 'airblade/vim-gitgutter' " show git diff
 Plug 'scrooloose/nerdtree' " tree explorer
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all'   }
+Plug 'junegunn/fzf.vim' " fuzzy finder
 call plug#end()
 
 "save the cursor location
