@@ -56,13 +56,32 @@ set ttymouse=xterm2
 noremap <ScrollWheelUp> 3k
 noremap <ScrollWheelDown> 3j
 
+" SpecialKey color
+highlight SpecialKey ctermfg=81
+" Directory color
+highlight Directory ctermfg=159
 " pattern match color
-highlight Search ctermfg=Black
-" comment color
-highlight Comment ctermfg=Darkgray
+highlight Search ctermfg=0
 " line number color
 highlight LineNr ctermfg=7
+" line cursor color
 highlight CursorLineNr ctermfg=202
+" title color
+highlight Title ctermfg=5
+" comment color
+highlight Comment ctermfg=242
+" warning color
+highlight WarningMsg ctermfg=1
+" DiffAdd color
+highlight DiffAdd guibg=DarkBlue
+" DiffChange color
+highlight DiffChange guibg=DarkMagenta
+" DiffDelete color
+highlight DiffDelete guibg=LightCyan
+" warning color
+highlight WarningMsg ctermfg=1
+" warning color
+highlight WarningMsg ctermfg=1
 " Statement
 highlight Statement ctermfg=208
 " Identifier
