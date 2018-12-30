@@ -92,6 +92,8 @@ highlight Constant ctermfg=1
 highlight Preproc ctermfg=5
 " Type
 highlight Type ctermfg=2
+" PmenuSel
+highlight PmenuSel ctermbg=11 ctermfg=0
 
 " search by left click
 vmap <LeftMouse> <Plug>(visualstar-g*)
